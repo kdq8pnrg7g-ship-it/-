@@ -1,0 +1,39 @@
+Запрос на вывод списка супермаркетов
+
+Метод: GET
+URL: /api/v1/supermarkets
+Request body: нет, так как это GET запрос
+
+Пример запроса:
+
+Response body (code and status):
+200 OK
+
+{"name": "Метро",
+ "delivery": "Ближайшая доставка",
+ "deliveryDate": "Сегодня",
+ "deliveryTime": "21:00-23:00",
+ "imageUrl": "https://online-metro.cc.ru/shops/logo/metro_128x128.png",
+ "external_url": "online-metro.cc.ru://product-catalog?shop_id=2048&utm"
+},
+{"name": "Ашан,
+ "delivery": "Ближайшая доставка",
+ "deliveryDate": "Сегодня",
+ "deliveryTime": "18:00-20:00",
+ "imageUrl": "https://ashan.ru/shops/logo/ashan_128x128.png",
+"external_url": "ashanshop.ru://product-catalog?shop_id=2048&utm"
+},
+{"name": "ВкусВилл",
+ "delivery": "Быстрая доставка",
+ "deliveryDate": "null",
+ "deliveryTime": "от 20 до 60 минут",
+ "imageUrl": "https://vkusvill.ru/shops/logo/vv_28x128.png",
+"external_url": "vkusvill.tu://product-catalog?shop_id=2048&utm"
+},
+{"name": "Виктория
+ "delivery": "Ближайшая доставка",
+ "deliveryDate": "Сегодня",
+ "deliveryTime": "17:00-19:00",
+ "imageUrl": "https://victory.ru/shops/logo/vic_128x128.png",
+ "external_url": "victory_shop//product-catalog?shop_id=2048&utm"
+ }
